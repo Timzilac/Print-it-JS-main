@@ -58,9 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	};
 
 	// Création de la flèche gauche
-	let arrow_left = createArrow('/assets/images/arrow_left.png', 'arrow_left');
+	let arrow_left = createArrow('assets/images/arrow_left.png', 'arrow_left');
 	// Création de la flèche droite
-	let arrow_right = createArrow('/assets/images/arrow_right.png', 'arrow_right');
+	let arrow_right = createArrow('assets/images/arrow_right.png', 'arrow_right');
 
 	// Ajoute un événement `click` à la flèche gauche pour passer à la slide précédente
 	arrow_left.addEventListener("click", () => {
